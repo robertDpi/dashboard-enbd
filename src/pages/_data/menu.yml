@@ -1,7 +1,17 @@
 home:
   url: ""
-  title: Home
+  title: Homepage
   icon: home
+Enbdx:
+  url: enbdx.html
+  title: ENBD X
+  title-long: ENBD X
+  icon: checkbox
+Ei20:
+  url: ei20.html
+  title: EI 2.0
+  title-long: Emirates islamic 2.0
+  icon: checkbox
 
 # base:
 #   title: Interface
@@ -159,22 +169,6 @@ home:
 #         maintenance:
 #           url: error-maintenance.html
 #           title: Maintenance page
-
-forms:
-  url: form-elements.html
-  title: EI app
-  title-long: EI app
-  icon: checkbox
-forms:
-  url: form-elements.html
-  title: ENBD X
-  title-long: Enbcs
-  icon: checkbox
-forms:
-  url: form-elements.html
-  title: Oher APP
-  title-long: OP elements
-  icon: checkbox
 
 # extra:
 #   title: Extra
