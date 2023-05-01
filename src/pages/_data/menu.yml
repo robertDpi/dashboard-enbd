@@ -163,17 +163,17 @@ home:
 forms:
   url: form-elements.html
   title: EI app
-  title-long: Form elements
+  title-long: EI app
   icon: checkbox
 forms:
   url: form-elements.html
   title: ENBD X
-  title-long: Form elements
+  title-long: Enbcs
   icon: checkbox
 forms:
   url: form-elements.html
   title: Oher APP
-  title-long: Form elements
+  title-long: OP elements
   icon: checkbox
 
 # extra:
