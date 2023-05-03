@@ -2,13 +2,13 @@
   {
     "id": "1",
     "first_name": "Enbd",
-    "last_name": "Kuna",
-    "full_name": "Enbd Kuna",
+    "last_name": "Testuser",
+    "full_name": "Enbd Testuser",
     "email": "paweluna@howstuffworks.com",
     "gender": "Male",
     "company": "Tabler",
     "department": "Training",
-    "job_title": "UI Designer",
+    "job_title": "Lead User Researcher",
     "slogan": "utilize distributed convergence",
     "shirt_size": "XS",
     "university": "Xihua University",
@@ -23,7 +23,7 @@
     "bitcoin_address": "1Fomujp67Pd2bdcz4DSkKePwfqwoBGkxmB",
     "birth_date": "04/12/1955",
     "ip_address": "156.98.195.172",
-    "photo": "static/avatars/000m.jpg"
+    "photo": "static/avatars/002f.jpg"
   },
   {
     "id": "2",
