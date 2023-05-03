@@ -2,9 +2,9 @@
 {% assign person = site.data.people[person-id] %}
 <div class="navbar-nav flex-row{% if include.class %} {{ include.class }}{% endif %}">
 
-<!-- 	{% unless include.condensed %}
+	{% unless include.condensed %}
 	<div class="nav-item d-none d-{{ include.breakpoint }}-flex me-3">
-		<div class="btn-list">
+<!-- 		<div class="btn-list">
 			{% if include.dark %}
 			{% include ui/button.html color="dark" icon="brand-github" text="Source code" href=site.github-url
 			external=true %}
@@ -16,9 +16,9 @@
 			{% include ui/button.html icon="heart" icon-color="pink" outline=true text="Sponsor"
 			href=site.github-sponsors-url external=true %}
 			{% endif %}
-		</div>
+		</div> -->
 	</div>
-	{% endunless %} -->
+	{% endunless %}
 
 	<div class="d-none d-{{ include.breakpoint }}-flex">
 		<a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode" data-bs-toggle="tooltip"
