@@ -12,6 +12,11 @@ Ei20:
   title: EI 2.0
   title-long: Emirates islamic 2.0
   icon: checkbox
+Prod x:
+  url: prodx.html
+  title: Prodx
+  title-long: Prodx
+  icon: checkbox
 
 # base:
 #   title: Interface

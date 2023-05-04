@@ -12,11 +12,11 @@ keep_files:
 use-iconfont: false
 rtl: false
 
-title: Tabler
-description: Premium and Open Source dashboard template with responsive and high quality UI.
+title: EmiratesNBD - design research dashboard
+description: A customizable dashboard for internal metrics
 
-email: support@tabler.io
-homepage: https://tabler.io
+email: robertp@emiratesnbd.com
+homepage: https://www.x.io
 github-url: https://github.com/tabler/tabler
 github-sponsors-url: https://github.com/sponsors/codecalm
 changelog-url: https://github.com/tabler/tabler/releases

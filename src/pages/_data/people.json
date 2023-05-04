@@ -3,11 +3,7 @@
     "id": "1",
     "first_name": "Enbd",
     "last_name": "Testuser",
-<<<<<<< HEAD
-    "full_name": "Enbd testuser",
-=======
     "full_name": "Enbd Testuser",
->>>>>>> dev
     "email": "paweluna@howstuffworks.com",
     "gender": "Male",
     "company": "Tabler",
@@ -27,11 +23,7 @@
     "bitcoin_address": "1Fomujp67Pd2bdcz4DSkKePwfqwoBGkxmB",
     "birth_date": "04/12/1955",
     "ip_address": "156.98.195.172",
-<<<<<<< HEAD
-    "photo": "static/avatars/001f.jpg"
-=======
     "photo": "static/avatars/002f.jpg"
->>>>>>> dev
   },
   {
     "id": "2",
