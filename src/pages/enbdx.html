@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: ENBD X
 menu: extra.empty
 page-header: ENBD X
@@ -41,7 +40,44 @@ libs: apexcharts, jsvectormap, jsvectormap-world, jsvectormap-world-merc
 		</div>
 	</div>
 	{% endcomment %}
+	<div class="col-lg-6">
+		{% include parts/charts/activity.html %}
+	</div>
 
+	<div class="col-md-6 col-lg-4">
+				<div class="card">
+					<div class="card-body">
+						<p class="mb-3">Current sentiment: <strong>Overall positive</strong></p>
+						<div class="progress progress-separated mb-3">
+							<div class="progress-bar bg-success" role="progressbar" style="width: 64%" aria-label="Regular"></div>
+							<div class="progress-bar bg-info" role="progressbar" style="width: 17%" aria-label="System"></div>
+							<div class="progress-bar bg-danger" role="progressbar" style="width: 19%" aria-label="Shared"></div>
+						</div>
+						<div class="row">
+							<div class="col-auto d-flex align-items-center pe-2">
+								<span class="legend me-2 bg-success"></span>
+								<span>Positive</span>
+								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">133</span>
+							</div>
+							<div class="col-auto d-flex align-items-center px-2">
+								<span class="legend me-2 bg-info"></span>
+								<span>Neutral</span>
+								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">33</span>
+							</div>
+							<div class="col-auto d-flex align-items-center px-2">
+								<span class="legend me-2 bg-danger"></span>
+								<span>Negative</span>
+								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">39</span>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+
+	<div class="col-md-6 col-lg-8">
+		{% include cards/activity.html %}
+	</div>
 
 
 	<div class="col-md-12 col-lg-8">
@@ -53,39 +89,7 @@ libs: apexcharts, jsvectormap, jsvectormap-world, jsvectormap-world-merc
 	<div class="col-md-6 col-lg-4">
 		{% include cards/social-traffic.html %}
 	</div>
-	<div class="col-12">
-				<div class="card">
-					<div class="card-body">
-						<p class="mb-3">Current sentiment: <strong>Overall positive</strong> - last updated 12/03/23</p>
-						<div class="progress progress-separated mb-3">
-							<div class="progress-bar bg-success" role="progressbar" style="width: 64%" aria-label="Regular"></div>
-							<div class="progress-bar bg-info" role="progressbar" style="width: 17%" aria-label="System"></div>
-							<div class="progress-bar bg-danger" role="progressbar" style="width: 19%" aria-label="Shared"></div>
-						</div>
-						<div class="row">
-							<div class="col-auto d-flex align-items-center pe-2">
-								<span class="legend me-2 bg-success"></span>
-								<span>Positive comments</span>
-								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">133</span>
-							</div>
-							<div class="col-auto d-flex align-items-center px-2">
-								<span class="legend me-2 bg-info"></span>
-								<span>Neutral comments</span>
-								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">33</span>
-							</div>
-							<div class="col-auto d-flex align-items-center px-2">
-								<span class="legend me-2 bg-danger"></span>
-								<span>Negative comments</span>
-								<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">39</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 
-	<div class="col-12">
-		{% include cards/activity.html %}
-	</div>
 	<div class="col-12">
 		{% include cards/icons-banner.html %}
 	</div>
@@ -99,11 +103,3 @@ libs: apexcharts, jsvectormap, jsvectormap-world, jsvectormap-world-merc
 	</div>
 
 </div>
-=======
-title: Empty page
-menu: extra.empty
-page-header: Empty page
----
-
-<!-- Content here -->
->>>>>>> 27e86038 (testing commit from server)

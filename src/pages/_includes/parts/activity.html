@@ -8,7 +8,8 @@
 					{% include ui/avatar.html person=person %}
 				</div>
 				<div class="col">
-					<div class="text-truncate">
+			    	<!-- add class -->
+					<div class="text-multiline">
 						{{ item.text | replace: '%p', person.full_name | replace: '%c', person.company }}
 					</div>
 					<div class="text-muted">{{ forloop.index | random_date_ago: 4 | timeago }}</div>
