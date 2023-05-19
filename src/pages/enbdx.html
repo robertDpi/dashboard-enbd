@@ -11,10 +11,24 @@ libs: apexcharts, jsvectormap, jsvectormap-world, jsvectormap-world-merc
 <div class="row row-deck row-cards media">
 	<div class="col-12">
 		<div class="container-fluid  d-flex align-items-left justify-content-center card">
-					<div class="avatar product-logo" style="background-image: url(./static/enbd-app-logos/enbdx-round.png)"></div>
+			<div class="datagrid">
+			<div class="col-sm-1 col-lg-3 d-flex">
+				<div class="avatar product-logo" style="background-image: url(./static/enbd-app-logos/enbdx-round.png)"></div>
+			</div>
+			<div class="col-sm-1 col-lg-12 d-flex align-items-center">
+				<div class="row align-items-center">
+                    {% include cards/small-stats.html id="sales" icon="arrow-up" color="green" lt=true title="$5,256.99" description="Revenue last 30 days" description-value="+4%" %}
+                    </div>
+            </div>
+				
+			 
+				
+</div>
+
+		<!-- end of first container -->	
  		</div>
 
-	 
+
 	</div>
 
 
