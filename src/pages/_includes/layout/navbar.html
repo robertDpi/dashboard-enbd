@@ -50,6 +50,11 @@
 				</div>
 			</div>
 		</div>
+	{% if include.submenu %}
+		<div class="navbar navbar-expand-{{ breakpoint }} navbar-light">
+			{% include layout/navbar-submenu.html sample=include.sample hide-icons=include.hide-icons long-titles=true %}
+		</div>
+	{% endif %}
 	</header>
 	{% endunless %}
 

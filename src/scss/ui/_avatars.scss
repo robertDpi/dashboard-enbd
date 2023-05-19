@@ -40,6 +40,15 @@
 .avatar-rounded {
   border-radius: $border-radius-pill;
 }
+.product-logo{
+    border-radius: $avatar-border-radius;
+    box-shadow: none;
+    border:none;
+    --tblr-avatar-size: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
 
 @each $avatar-size, $size in $avatar-sizes {
   .avatar-#{$avatar-size} {
