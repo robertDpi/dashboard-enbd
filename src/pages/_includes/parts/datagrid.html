@@ -4,7 +4,7 @@
 		<div class="datagrid-content">12.0</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Updated on</div>
+		<div class="datagrid-title">Data Updated on</div>
 		<div class="datagrid-content">18 April 2023</div>
 	</div>
 	<div class="datagrid-item">
@@ -16,7 +16,7 @@
 		<div class="datagrid-content">–</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Creator</div>
+		<div class="datagrid-title">Point of contact</div>
 		<div class="datagrid-content">
 			{% assign creator = site.data.people[0] %}
 			<div class="d-flex align-items-center">
@@ -26,23 +26,23 @@
 		</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Age</div>
-		<div class="datagrid-content">15 days</div>
+		<div class="datagrid-title">Last updated</div>
+		<div class="datagrid-content">15 days ago</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Edge network</div>
+		<div class="datagrid-title">UAT version</div>
 		<div class="datagrid-content">
-			{% include ui/status.html text="Active" color="green" %}
+			{% include ui/status.html text="Working" color="green" %}
 		</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Avatars list</div>
+		<div class="datagrid-title">Live status</div>
 		<div class="datagrid-content">
-			{% include ui/avatar-list.html stacked=true text="+3" size="xs" %}
+			{% include ui/status.html text="Working" color="green" %}
 		</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Checkbox</div>
+		<div class="datagrid-title">Activate some microservice</div>
 		<div class="datagrid-content">
 			<label class="form-check">
 				<input class="form-check-input" type="checkbox" checked>
@@ -51,7 +51,7 @@
 		</div>
 	</div>
 	<div class="datagrid-item">
-		<div class="datagrid-title">Icon</div>
+		<div class="datagrid-title">Status of something</div>
 		<div class="datagrid-content">
 			{% include ui/icon.html icon="check" color="green" %}
 			Checked

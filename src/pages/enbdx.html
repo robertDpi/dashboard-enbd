@@ -11,27 +11,33 @@ libs: apexcharts, jsvectormap, jsvectormap-world, jsvectormap-world-merc
 <div class="row row-deck row-cards media">
 	<div class="col-12">
 		<div class="container-fluid  d-flex align-items-left justify-content-center card">
-			<div class="datagrid">
-			<div class="col-sm-1 col-lg-3 d-flex">
-				<div class="avatar product-logo" style="background-image: url(./static/enbd-app-logos/enbdx-round.png)"></div>
-			</div>
-			<div class="col-sm-1 col-lg-12 d-flex align-items-center">
-				<div class="row align-items-center">
-                    {% include cards/small-stats.html id="sales" icon="arrow-up" color="green" lt=true title="$5,256.99" description="Revenue last 30 days" description-value="+4%" %}
+			 <div class="row">
+				<div class="col-sm-1 col-lg-1 d-flex justify-content-left">
+					<div class="avatar product-logo" style="background-image: url(./static/enbd-app-logos/enbdx-round.png)"></div>
+				</div>				
+				<div class="col-sm-1 col-lg-2 d-grid gap-2 pt-5 pb-5">
+		 			<span class="text-muted">Average Rating</span>
+					<span class="rating  ">★★★★☆ (4.3)</span> 					
+					<span class=" ">19.9K reviews</span>
+				</div>
+			
+ 				<div class="col-sm-1 col-lg-6 d-flex align-items-center">
+					<div class="row align-items-center">
+              	      {% include cards/small-stats.html id="reviews" icon="arrow-up" color="green" lt=true title="323" description="Reviews this week" description-value="+4%" %}
                     </div>
-            </div>
-				
-			 
-				
-</div>
-
+				</div>	
+			 	<div class="col-sm-1 col-lg-2 d-flex align-items-center">
+					<div class="datagrid-item">
+						<div class="datagrid-title">Live status</div>
+						<div class="datagrid-content">
+							{% include ui/status.html text="Working" color="green" %}
+						</div>
+					</div>
+				</div>				
 		<!-- end of first container -->	
- 		</div>
-
-
+ 			</div>
 	</div>
-
-
+	</div>
 	<div class="col-sm-6 col-lg-3">
 		{% include cards/charts/sales.html %}
 	</div>
